@@ -1,0 +1,93 @@
+body{
+  background-color:#F6D167;
+  color: white;
+  font-family: 'Noto Sans Mono', monospace;
+}
+
+.App {
+  height: 100%;
+  width: 30%;
+  margin: auto;
+}
+
+h1 {  
+  text-align: center;
+  font-weight: 600;
+}
+
+.form-input{
+  height: 35px;
+  width: 78%;
+}
+
+.form-btn-submit {
+  height: 39px;
+  background-color: #D4ECDD;
+  border: 0px;
+  width: 20%;
+}
+
+.sidebar {
+  margin : 20px 0 10px 0;
+}
+
+.btn-sb{
+  background-color: transparent;
+  border: 1px solid black;
+  width: 28%;
+  height: 30px;
+  margin: auto 10px;
+  color: white;
+  padding: 5px;
+  font-size: 18px;
+}
+
+.sb-btn-click{
+  color: black;
+  background-color: white;
+}
+
+.todo-list-ul{ 
+  margin-top: 50px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.todo{
+  display: flex;
+  align-content: space-around;
+  margin-top: 20px;
+}
+
+.todo-name {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  border: 0px;
+  height: 28px;
+  width: 60%;
+  margin: 0;
+  padding: 10px 0 0 10px ;
+  overflow: hidden;
+}
+
+.todo-btn-done, .todo-btn-del{
+  border: 1px solid grey;
+  height: 39px;
+  margin: 0;
+  width: 20%;
+  color: white;
+}
+
+.todo-btn-done{
+  background-color: #80ED99;
+}
+
+.todo-btn-del{
+  background-color: #FF2442;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.8;
+}
